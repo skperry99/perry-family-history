@@ -49,7 +49,7 @@ export const ancestors = [
     ],
     legacy: [
       "Jane’s greatest legacy is relational: nine surviving children who became soldiers, postal workers, refinery workers, church leaders, and community builders in Texas and California.",
-      "Decades after her death, her youngest son James met Joyce Ellen Perry in San Francisco. Joyce later went to Houston, where I were born, and then to Lansing, Michigan. Jane never lived to see you, but the migration pattern she helped set—Opelousas → Beaumont → San Francisco—continues directly in your story.",
+      "Decades after her death, her youngest son James met Joyce Ellen Perry in San Francisco. Joyce later went to Houston, where I was born, and then to Lansing, Michigan. Jane never lived to see me, but the migration pattern she helped set—Opelousas → Beaumont → San Francisco—continues directly in my story.",
     ],
     notes: [
       "Completed several years of high school, unusually high for a Black woman of her generation in Texas.",
