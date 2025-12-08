@@ -1,68 +1,348 @@
+/* --- Fonts ----------------------------------------------------------- */
+/* You can also put this <link> in index.html instead of using @import */
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Source+Sans+3:wght@300;400;600&display=swap");
+
+/* --- Design tokens / theme ------------------------------------------ */
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  /* Colors */
+  --bg: #f7f2e9;           /* main background - warm paper */
+  --bg-elevated: #ffffff;  /* cards / header */
+  --bg-muted: #f0e7d9;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  --text: #222222;
+  --text-muted: #5c5550;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  --accent: #7a4b9b;       /* soft plum / iris */
+  --accent-soft: #e5d7f3;
+  --accent-dark: #4a2d63;
+
+  --border-subtle: #ded1c0;
+
+  /* Layout */
+  --max-width: 960px;
+
+  /* Typography */
+  --font-body: "Source Sans 3", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  --font-heading: "Merriweather", Georgia, "Times New Roman", serif;
+
+  /* Misc */
+  --radius-lg: 14px;
+  --radius-md: 10px;
+  --shadow-soft: 0 14px 28px rgba(0, 0, 0, 0.06);
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+/* --- Global reset-ish ----------------------------------------------- */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
-a:hover {
-  color: #535bf2;
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
+  font-family: var(--font-body);
+  background: radial-gradient(circle at top, #fdfaf6 0, var(--bg) 45%, #f4eee4 100%);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+/* --- App shell ------------------------------------------------------ */
+
+.app-shell {
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* --- Header / nav --------------------------------------------------- */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  backdrop-filter: blur(10px);
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.96),
+    rgba(247, 242, 233, 0.96)
+  );
+  border-bottom: 1px solid rgba(222, 209, 192, 0.7);
+}
+
+.site-header > div,
+.site-main,
+.site-footer > div {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+.site-header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.9rem 0;
+  gap: 1.5rem;
+}
+
+.brand a {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.25rem;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--accent-dark);
+}
+
+.brand a span {
+  font-weight: 400;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  display: block;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.95rem;
+}
+
+.site-nav a {
+  text-decoration: none;
+  color: var(--text-muted);
+  padding: 0.35rem 0.6rem;
+  border-radius: 999px;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.site-nav a:hover,
+.site-nav a:focus-visible {
+  background: var(--accent-soft);
+  color: var(--accent-dark);
+}
+
+/* Mobile nav */
+
+@media (max-width: 640px) {
+  .site-header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* --- Main content --------------------------------------------------- */
+
+.site-main {
+  flex: 1;
+  width: 100%;
+  padding: 2.5rem 1.25rem 2.75rem;
+}
+
+.site-main > div,
+.site-main > article {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+/* --- Footer --------------------------------------------------------- */
+
+.site-footer {
+  border-top: 1px solid rgba(222, 209, 192, 0.7);
+  background: rgba(252, 248, 242, 0.9);
+}
+
+.site-footer > div {
+  padding: 0.75rem 1.25rem 1rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  text-align: center;
+}
+
+/* --- Typography basics ---------------------------------------------- */
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-heading);
+  margin: 0 0 0.35em;
+  color: #1b1720;
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-size: clamp(1.9rem, 3vw, 2.3rem);
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+h2 {
+  font-size: clamp(1.4rem, 2.3vw, 1.7rem);
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+h3 {
+  font-size: 1.15rem;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+/* --- Links ---------------------------------------------------------- */
+
+a {
+  color: var(--accent-dark);
+}
+
+a:hover,
+a:focus-visible {
+  color: var(--accent);
+}
+
+/* --- Home / ancestor list ------------------------------------------- */
+
+h1 + p {
+  color: var(--text-muted);
+  max-width: 42rem;
+}
+
+ul {
+  padding-left: 1.1rem;
+}
+
+.ancestor-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0.9rem;
+}
+
+@media (min-width: 720px) {
+  .ancestor-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
-  a:hover {
-    color: #747bff;
+}
+
+.ancestor-list li {
+  background: var(--bg-elevated);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-subtle);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.03);
+  padding: 0.9rem 1rem;
+  transition: transform 0.15s ease, box-shadow 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.ancestor-list li:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-soft);
+  border-color: rgba(122, 75, 155, 0.45);
+}
+
+.ancestor-list a {
+  font-family: var(--font-heading);
+  font-size: 1.02rem;
+  text-decoration: none;
+  color: var(--accent-dark);
+}
+
+.ancestor-list span {
+  font-weight: 400;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+}
+
+.relationship {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-top: 0.2rem;
+}
+
+/* --- Ancestor detail page ------------------------------------------- */
+
+.ancestor-page {
+  background: var(--bg-elevated);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-soft);
+  padding: 1.6rem 1.4rem 1.8rem;
+}
+
+@media (min-width: 720px) {
+  .ancestor-page {
+    padding: 2rem 2.15rem 2.4rem;
   }
-  button {
-    background-color: #f9f9f9;
-  }
+}
+
+.ancestor-page > a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: var(--text-muted);
+  margin-bottom: 0.75rem;
+}
+
+.ancestor-page > a::before {
+  content: "←";
+  font-size: 0.9rem;
+}
+
+.ancestor-page h1 {
+  margin-bottom: 0.15rem;
+}
+
+.lifespan {
+  margin: 0;
+  font-size: 0.97rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.ancestor-page .relationship {
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+  color: var(--accent-dark);
+}
+
+.ancestor-page section {
+  margin-top: 1.6rem;
+}
+
+.ancestor-page section h2 {
+  font-size: 1.15rem;
+  margin-bottom: 0.4rem;
+  border-bottom: 1px solid var(--border-subtle);
+  padding-bottom: 0.15rem;
+}
+
+.ancestor-page section ul {
+  padding-left: 1.1rem;
+}
+
+.ancestor-page section li {
+  margin-bottom: 0.4rem;
+}
+
+/* Make long story paragraphs extra readable */
+.ancestor-page p {
+  max-width: 46rem;
+}
+
+/* --- Utility -------------------------------------------------------- */
+
+.text-muted {
+  color: var(--text-muted);
 }

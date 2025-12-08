@@ -6,18 +6,20 @@ export default function HomePage() {
     <div>
       <h1>Perry Family History</h1>
       <p>
-        Stories from the Milburn, Simmons, Tatum, Barber, Ruffins, and White
-        lines, leading down to James Clarence Milburn.
+        Stories from the Milburn, Simmons, Tatum, Barber, Ruffins, White, and
+        Davis lines — ordinary lives set against extraordinary times.
       </p>
 
       <h2>Ancestor Gallery</h2>
-      <ul>
+      <ul className="ancestor-list">
         {ancestors.map((a) => (
           <li key={a.id}>
             <Link to={`/ancestor/${a.id}`}>
               {a.name} <span>({a.lifespan})</span>
             </Link>
-            {a.relationship && <div className="relationship">{a.relationship}</div>}
+            {a.relationship && (
+              <div className="relationship">{a.relationship}</div>
+            )}
           </li>
         ))}
       </ul>
