@@ -67,6 +67,24 @@ export default function AncestorPage() {
           </ul>
         </section>
       )}
+      {ancestor.sources && ancestor.sources.length > 0 && (
+        <section>
+          <h2>Sources</h2>
+          <ul className="sources-list">
+            {ancestor.sources.map((s, idx) => (
+              <li key={idx} className="sources-item">
+                <div className="sources-main">
+                  <span className="sources-label">{s.label}</span>
+                  {s.date ? (
+                    <span className="sources-date">{s.date}</span>
+                  ) : null}
+                </div>
+                <div className="sources-detail">{s.detail}</div>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
     </article>
   );
 }

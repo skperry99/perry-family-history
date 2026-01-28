@@ -473,6 +473,46 @@ ul {
   max-width: 46rem;
 }
 
+/* --- Sources -------------------------------------------------------- */
+
+.sources-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.75rem 0 0;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.sources-item {
+  border: 1px solid var(--border-subtle);
+  background: rgba(240, 231, 217, 0.35);
+  border-radius: 12px;
+  padding: 0.75rem 0.85rem;
+}
+
+.sources-main {
+  display: flex;
+  gap: 0.6rem;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.sources-label {
+  font-weight: 700;
+  color: var(--accent-dark);
+}
+
+.sources-date {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  letter-spacing: 0.02em;
+}
+
+.sources-detail {
+  margin-top: 0.35rem;
+  color: var(--text);
+}
+
 /* --- Utility -------------------------------------------------------- */
 
 .text-muted {
