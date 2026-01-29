@@ -26,6 +26,16 @@ export const ancestors = [
       "Bridge person between Milburn/Simmons and Tatum/Davis lines.",
       "His path traces Texas → California → Texas → Michigan in a single generation.",
     ],
+    researchNotes: [
+      "I have not met my biological father and do not have direct confirmation from him, his known daughter, or his siblings. My mother told me his name was “James Miller,” and she has not had contact with him since before I was born.",
+      "Based on my DNA matches, I currently believe James Clarence Milburn is the most likely candidate. My matches include a confirmed cousin, multiple great-nieces/nephews, and two additional matches who appear to be nephews (likely sons of James’s brothers) but are not yet confirmed.",
+      "For now, I treat this as a well-supported working hypothesis rather than a definitive conclusion, pending closer-match confirmation.",
+    ],
+    confidenceBadge: {
+      text: "Hypothesis",
+      variant: "hypothesis",
+    },
+
     sources: [
       {
         label: "Ancestry.com",

@@ -1,6 +1,6 @@
-# Perry Family History 📖🌿
+# Roots: A Personal Family History 📖🌿
 
-A story-forward family history website built with **React + Vite**, deployed on **Netlify**.
+A story-forward personal family history site built with React + Vite. It combines ancestor biographies, historical context, sources, and (where relevant) DNA-informed hypotheses.
 
 The site presents “ancestor pages” as readable biographies that place each person’s life in context, with special focus on the Milburn, Simmons, and Tatum lines (and related branches as they’re added).
 
@@ -120,3 +120,4 @@ respectful and grounded
 contextualized in time/place (“what was happening in the world around them”)
 
 Some conclusions (especially around biological relationships) may be informed by DNA evidence and should be treated as hypotheses unless documented with records.
+```

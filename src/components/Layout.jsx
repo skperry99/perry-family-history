@@ -8,8 +8,8 @@ export default function Layout({ children }) {
           <div className="site-header-inner">
             <div className="brand">
               <Link to="/">
-                Perry Family History
-                <span>Milburn · Simmons · Tatum and beyond</span>
+                Roots: A Personal Family History
+                <span>Stories, records, and DNA clues</span>
               </Link>
             </div>
 
@@ -29,7 +29,7 @@ export default function Layout({ children }) {
 
       <footer className="site-footer">
         <div>
-          <p>© {new Date().getFullYear()} Perry Family History</p>
+          <p>© {new Date().getFullYear()} Roots: A Personal Family History</p>
         </div>
       </footer>
     </div>
