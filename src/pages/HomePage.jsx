@@ -51,10 +51,11 @@ export default function HomePage() {
 
   return (
     <div>
-      <h1>Perry Family History</h1>
+      <h1>Roots: A Personal Family History</h1>
       <p className="home-intro">
-        Stories from the Milburn, Simmons, Tatum, Barber, Ruffins, White, and
-        Davis lines, told as lives in context.
+        A growing collection of ancestor pages that places ordinary lives in
+        context: migrations, neighborhoods, work, war, education, and the family
+        ties that connect it all.
       </p>
 
       <section className="home-controls" aria-label="Search and filters">
@@ -92,7 +93,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <h2 className="home-section-title">Ancestor Gallery</h2>
+      <h2 className="home-section-title">Browse Ancestors</h2>
 
       {shown === 0 ? (
         <div className="empty-state" role="status" aria-live="polite">
