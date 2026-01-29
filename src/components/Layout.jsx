@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 export default function Layout({ children }) {
   return (
@@ -9,12 +9,17 @@ export default function Layout({ children }) {
             <div className="brand">
               <Link to="/">
                 Perry Family History
-                <span>Milburn · Simmons · Tatum & more</span>
+                <span>Milburn · Simmons · Tatum and beyond</span>
               </Link>
             </div>
-            <nav className="site-nav">
-              <Link to="/">Home</Link>
-              <Link to="/about">About</Link>
+
+            <nav className="site-nav" aria-label="Primary">
+              <NavLink to="/" end>
+                Home
+              </NavLink>
+              <NavLink to="/lines">Lines</NavLink>
+              <NavLink to="/story">Story</NavLink>
+              <NavLink to="/about">About</NavLink>
             </nav>
           </div>
         </div>
