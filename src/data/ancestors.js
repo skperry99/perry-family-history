@@ -3,7 +3,8 @@ export const ancestors = [
     id: "james-clarence-milburn",
     name: "James Clarence Milburn",
     lifespan: "1944–2003",
-    relationship: "My biological father; youngest child of the Hemlock Street household.",
+    relationship:
+      "My biological father; youngest child of the Hemlock Street household.",
     snapshot: [
       "Born: 26 July 1944, Beaumont, Jefferson County, Texas",
       "Died: 26 January 2003, California (buried at San Joaquin Valley National Cemetery, Santa Nella)",
@@ -24,6 +25,24 @@ export const ancestors = [
     notes: [
       "Bridge person between Milburn/Simmons and Tatum/Davis lines.",
       "His path traces Texas → California → Texas → Michigan in a single generation.",
+    ],
+    sources: [
+      {
+        label: "Ancestry.com",
+        detail: "Birth record index / Texas birth registration (Beaumont, TX)",
+        date: "1944-07-26",
+      },
+      {
+        label: "Ancestry.com",
+        detail: "U.S. Army enlistment/service record (Vietnam era)",
+        date: "1965–1967",
+      },
+      {
+        label: "Family knowledge",
+        detail:
+          "Met Joyce Ellen Perry in San Francisco in 1976; Joyce traveled to Houston during pregnancy; returned to Lansing, MI to live with her brother Edwin shortly after birth",
+        date: "2026-01",
+      },
     ],
   },
 
@@ -141,7 +160,8 @@ export const ancestors = [
     id: "robert-theophoulus-tatum",
     name: "Robert Theophoulus Tatum",
     lifespan: "1889–1947",
-    relationship: "Likely my biological grandfather; educator and community leader in Beaumont.",
+    relationship:
+      "Likely my biological grandfather; educator and community leader in Beaumont.",
     snapshot: [
       "Born: late 1880s (Texas)",
       "Died: 1947, Texas",

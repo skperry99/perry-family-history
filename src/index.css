@@ -140,6 +140,11 @@ body {
   color: var(--accent-dark);
 }
 
+.site-nav a.active {
+  background: var(--accent-soft);
+  color: var(--accent-dark);
+}
+
 /* Mobile nav */
 
 @media (max-width: 640px) {
@@ -471,6 +476,149 @@ ul {
 /* Make long story paragraphs extra readable */
 .ancestor-page p {
   max-width: 46rem;
+}
+
+/* --- Sources -------------------------------------------------------- */
+
+.sources-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.75rem 0 0;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.sources-item {
+  border: 1px solid var(--border-subtle);
+  background: rgba(240, 231, 217, 0.35);
+  border-radius: 12px;
+  padding: 0.75rem 0.85rem;
+}
+
+.sources-main {
+  display: flex;
+  gap: 0.6rem;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.sources-label {
+  font-weight: 700;
+  color: var(--accent-dark);
+}
+
+.sources-date {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  letter-spacing: 0.02em;
+}
+
+.sources-detail {
+  margin-top: 0.35rem;
+  color: var(--text);
+}
+
+/* --- Cards (Lines page) -------------------------------------------- */
+
+.card-grid {
+  margin-top: 1.25rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1rem;
+}
+
+@media (min-width: 820px) {
+  .card-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.card {
+  background: var(--bg-elevated);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-subtle);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.04);
+  padding: 1.2rem 1.15rem;
+}
+
+.card h2 {
+  margin-bottom: 0.35rem;
+}
+
+.card-actions {
+  margin-top: 0.85rem;
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.btn-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.55rem 0.85rem;
+  border-radius: 999px;
+  border: 1px solid var(--border-subtle);
+  background: var(--bg-muted);
+  text-decoration: none;
+  color: var(--text);
+  transition:
+    transform 0.12s ease,
+    border-color 0.12s ease;
+}
+
+.btn-link:hover {
+  transform: translateY(-1px);
+  border-color: rgba(122, 75, 155, 0.45);
+}
+
+/* --- Story page ----------------------------------------------------- */
+
+.story-hero {
+  margin-bottom: 1rem;
+}
+
+.story-subtitle {
+  color: var(--text-muted);
+  max-width: 48rem;
+  margin-bottom: 0;
+}
+
+.story section {
+  margin-top: 1.6rem;
+}
+
+.story-callout {
+  margin-top: 1rem;
+  background: rgba(240, 231, 217, 0.45);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 1rem 1.1rem;
+}
+
+.story-callout h2,
+.story-callout h3 {
+  margin-top: 0;
+}
+
+.story-cast {
+  margin-top: 0.7rem;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+}
+
+.story-cast-label {
+  font-weight: 700;
+  color: var(--accent-dark);
+}
+
+.story-bullets {
+  margin-top: 0.6rem;
+  max-width: 52rem;
+}
+
+.story-bullets li {
+  margin-bottom: 0.55rem;
 }
 
 /* --- Utility -------------------------------------------------------- */
