@@ -67,6 +67,26 @@ export default function AncestorPage() {
           </ul>
         </section>
       )}
+      {ancestor.researchNotes && ancestor.researchNotes.length > 0 && (
+        <section>
+          <div className="section-title-row">
+            <h2>Evidence & Confidence</h2>
+
+            {ancestor.confidenceBadge?.text ? (
+              <span
+                className={`badge badge--${ancestor.confidenceBadge.variant || "neutral"}`}
+                title="This label reflects the current confidence level based on available evidence."
+              >
+                {ancestor.confidenceBadge.text}
+              </span>
+            ) : null}
+          </div>
+
+          {ancestor.researchNotes.map((para, idx) => (
+            <p key={idx}>{para}</p>
+          ))}
+        </section>
+      )}
       {ancestor.sources && ancestor.sources.length > 0 && (
         <section>
           <h2>Sources</h2>

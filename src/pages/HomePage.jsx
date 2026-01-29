@@ -16,7 +16,6 @@ export default function HomePage() {
     let list = ancestors;
 
     // Optional: "direct line" filter based on relationship wording.
-    // Tweak these keywords to match your preferred phrasing.
     if (onlyDirectLine) {
       const directKeywords = [
         "father",

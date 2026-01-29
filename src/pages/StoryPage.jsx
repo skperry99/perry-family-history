@@ -4,7 +4,7 @@ export default function StoryPage() {
   return (
     <div className="story">
       <header className="story-hero">
-        <h1>From Hemlock and Poplar to You</h1>
+        <h1>From Hemlock and Poplar to Me</h1>
         <p className="story-subtitle">
           The Milburn–Simmons–Tatum story, told as a connected narrative with
           historical context, neighborhood geography, and the patterns that
