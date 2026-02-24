@@ -13,24 +13,22 @@ export const ancestors = [
       "Military: U.S. Army, 27 Jul 1965 to 20 Jul 1967 (Vietnam era)",
     ],
     story: [
-      "James came into the world in the middle of World War II, born into a crowded Black household in Beaumont’s refinery belt, and recorded in 1950 as a child at 2175 Hemlock. :contentReference[oaicite:15]{index=15} :contentReference[oaicite:16]{index=16}",
-      "In July 1965, during the Vietnam era, he enlisted in the U.S. Army and served until July 1967, later buried as a veteran at San Joaquin Valley National Cemetery. :contentReference[oaicite:17]{index=17} :contentReference[oaicite:18]{index=18}",
-      "Ancestry’s indexes document marriages in San Francisco and divorces in the 1960s and 1970s, plus a daughter (Phalishia) born in San Francisco in 1969. :contentReference[oaicite:19]{index=19} :contentReference[oaicite:20]{index=20}",
-      "Your clarified family account matters here: James was living in San Francisco when he met your mother in 1976. She went to Houston during pregnancy, where you were born in 1977, and then returned to Lansing, Michigan to live at her brother Edwin’s house shortly after your birth.",
+      "James came into the world in the middle of World War II, born into a crowded Black household in Beaumont’s refinery belt, and recorded in 1950 as a child at 2175 Hemlock.",
+      "In July 1965, during the Vietnam era, he enlisted in the U.S. Army and served until July 1967. He was later buried as a veteran at San Joaquin Valley National Cemetery.",
+      "Ancestry’s indexes document marriages in San Francisco and divorces in the 1960s and 1970s, along with a daughter (Phalishia) born in San Francisco in 1969.",
+      "James was living in San Francisco when he met my mother in 1976. She went to Houston during pregnancy, where I was born in 1977, then returned to Lansing, Michigan to live at her brother Ed’s house shortly after my birth.",
     ],
     worldAround: [
       "James’s life spans Jim Crow Texas, the Civil Rights era, and the Vietnam War. His adulthood unfolded during the continued western migration that pulled Texas and Louisiana families into the Bay Area’s Black communities and working-class neighborhoods.",
     ],
     legacy: [
-      "On paper, James is a Milburn son; your DNA work suggests he also carries the Tatum/Davis line of educators. Through him, refinery-town roots and education-centered roots converge and continue forward in you.",
+      "On paper, James is a Milburn son; my DNA work suggests he also carries the Tatum/Davis line of educators. Through him, refinery-town roots and education-centered roots converge and continue forward in my life.",
     ],
     notes: [
       "Bridge person between Milburn/Simmons and Tatum/Davis lines.",
       "His path traces Texas → California → Texas → Michigan in a single generation.",
     ],
     researchNotes: [
-      "I have not met my biological father and do not have direct confirmation from him, his known daughter, or his siblings.",
-      "My mother told me my father’s name was “James Miller,” and she has not had contact with him since before I was born.",
       "Based on my DNA matches, I currently believe James Clarence Milburn is the most likely candidate. My matches include a confirmed cousin, multiple great-nieces/nephews, and two additional matches who appear to be nephews (likely sons of James’s brothers) but are not yet confirmed.",
       "For now, I treat this as a well-supported working hypothesis rather than a definitive conclusion, pending closer-match confirmation.",
     ],
@@ -150,7 +148,7 @@ export const ancestors = [
       "Henry represents continuity: service, then steady work, then long ties to the Bay Area that helped turn the Milburn diaspora into a durable community rather than scattered individuals.",
     ],
     notes: [
-      "Lifespan shows as open-ended in your current material; keep as unknown until you confirm a death record or obituary.",
+      "Lifespan shows as open-ended in my current material; keep as unknown until a death record or obituary is confirmed.",
     ],
     sources: [
       {
@@ -204,7 +202,7 @@ export const ancestors = [
       "Freddie’s obituary naming her siblings is a genealogist’s gift: it confirms the sibling set and shows that, even spread across states, the family still remembered itself as one tight unit.",
     ],
     notes: [
-      "Your chapter notes a small birth-year discrepancy in SSA-style records; you’re treating 1928 as the preferred year based on Texas records.",
+      "My chapter notes a small birth-year discrepancy in SSA-style records; I’m treating 1928 as the preferred year based on Texas records.",
     ],
     sources: [
       {
@@ -259,7 +257,7 @@ export const ancestors = [
       "Frank’s legacy is rootedness: a stable Central Coast home base, remembered through family and community rather than only through documents.",
     ],
     notes: [
-      "If you later add photos, Frank’s page is perfect for Marina landscape shots and a small ‘church/community’ sidebar.",
+      "If I later add photos, Frank’s page is perfect for Marina landscape shots and a small ‘church/community’ sidebar.",
     ],
     sources: [
       {
@@ -314,7 +312,7 @@ export const ancestors = [
       "His legacy is steadiness and service: a life that may not shout in documents, but still anchors the family’s Bay Area chapter through time.",
     ],
     notes: [
-      "No obvious spouse/children confirmed yet in your narrative. This is a great future research target via obituary text and marriage indexes.",
+      "No obvious spouse/children confirmed yet in my narrative. This is a strong future research target via obituary text and marriage indexes.",
     ],
     sources: [
       {
@@ -367,7 +365,7 @@ export const ancestors = [
       "Margaret represents rootedness and continuity. The Milburns didn’t only pass through San Francisco, they lived there, generation after generation.",
     ],
     notes: [
-      "Your current narrative treats death date/place as likely but not fully confirmed via official index. Keep that ‘probable’ wording until you pull the matching record.",
+      "My current narrative treats the death date/place as likely but not fully confirmed via an official index. Keep that ‘probable’ wording until the matching record is pulled.",
     ],
     sources: [
       {
@@ -410,10 +408,10 @@ export const ancestors = [
       "Later residences: Richmond (Contra Costa), Vallejo (Solano), El Cerrito (Contra Costa), CA",
     ],
     story: [
-      "Edward arrives as one of the Hemlock twins, born at the very edge of the 1940s, when the household on Hemlock Street was already a living organism: older siblings growing up, younger ones arriving, and the whole family anchored in Beaumont’s refinery-town geography. He’s recorded as a child at 995 Hemlock in 1940, and later at 2175 Hemlock in 1950, part of the same address chorus that repeats across Milburn records like a refrain. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}",
-      "As an adult, Edward’s paper trail shifts west with the wider family current toward California. His records show a long, looping relationship with Dovie Louise Boone, with marriage, divorce, and remarriage across counties and years, the kind of pattern that suggests real life happened in between the forms: separations, reconciliations, and the stubborn pull of family. :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3} :contentReference[oaicite:4]{index=4}",
-      "His children’s records add the sharpest human detail: a daughter born in 1966 and lost in 1967. Family trees don’t just grow, they also mourn, and this is one of the quiet places where grief is etched into the timeline. :contentReference[oaicite:5]{index=5}",
-      "Later addresses place him in Richmond and Vallejo, then El Cerrito, sketching a Bay Area life that stayed close to other Milburn footprints. :contentReference[oaicite:6]{index=6} :contentReference[oaicite:7]{index=7} :contentReference[oaicite:8]{index=8} :contentReference[oaicite:9]{index=9}",
+      "Edward arrives as one of the Hemlock twins, born at the very edge of the 1940s, when the household on Hemlock Street was already a living organism: older siblings growing up, younger ones arriving, and the whole family anchored in Beaumont’s refinery-town geography. He’s recorded as a child at 995 Hemlock in 1940, and later at 2175 Hemlock in 1950, part of the same address chorus that repeats across Milburn records like a refrain.",
+      "As an adult, Edward’s paper trail shifts west with the wider family current toward California. His records show a long, looping relationship with Dovie Louise Boone, with marriage, divorce, and remarriage across counties and years. The pattern suggests real life happened in between the forms: separations, reconciliations, and the stubborn pull of family.",
+      "His children’s records add the sharpest human detail: a daughter born in 1966 and lost in 1967. Family trees don’t just grow, they also mourn, and this is one of the quiet places where grief is etched into the timeline.",
+      "Later addresses place him in Richmond and Vallejo, then El Cerrito, sketching a Bay Area life that stayed close to other Milburn footprints.",
     ],
     worldAround: [
       "Edward’s life spans WWII childhood, the postwar boom, and the long decades when Black families reshaped the Bay Area through everyday moves: one apartment, one job, one new address at a time. The documents show the skeleton of that story; the living tissue is community, work, and family ties that rarely get written down.",
@@ -482,9 +480,9 @@ export const ancestors = [
       "Died: February 2015, Tacoma, Pierce County, Washington; buried Woodlawn Cemetery, Lacey, WA",
     ],
     story: [
-      "Edwin is the other half of the Hemlock twins, born on 15 December 1939, arriving just as the decade turns and the world braces for war. In 1940 he appears at 995 Hemlock, and by 1950 he’s still rooted at 2175 Hemlock, a kid in a house that functioned like a small city: generations, siblings, and constant motion under one roof. :contentReference[oaicite:10]{index=10} :contentReference[oaicite:11]{index=11}",
-      "By 1970, Edwin’s trail places him in San Francisco, including a specific address on 46th Avenue, and a marriage to Maria P. Pirela that same year. The move isn’t just a relocation, it’s a relay handoff: older Milburn siblings had already been threading California into the family map, and Edwin steps into that pattern in his own way. :contentReference[oaicite:12]{index=12}",
-      "Later, the records show him in Olympia, Washington, where his final chapter plays out in the Pacific Northwest. His death and burial are documented there, and an obituary listing helps confirm sibling connections within the broader Milburn network. :contentReference[oaicite:13]{index=13} :contentReference[oaicite:14]{index=14}",
+      "Edwin is the other half of the Hemlock twins, born on 15 December 1939, arriving just as the decade turns and the world braces for war. In 1940 he appears at 995 Hemlock, and by 1950 he’s still rooted at 2175 Hemlock, a kid in a house that functioned like a small city: generations, siblings, and constant motion under one roof.",
+      "By 1970, Edwin’s trail places him in San Francisco, including a specific address on 46th Avenue, and a marriage to Maria P. Pirela that same year. The move isn’t just a relocation, it’s a relay handoff: older Milburn siblings had already been threading California into the family map, and Edwin steps into that pattern in his own way.",
+      "Later records show him in Olympia, Washington, where his final chapter plays out in the Pacific Northwest. His death and burial are documented there, and an obituary listing helps confirm sibling connections within the broader Milburn network.",
     ],
     worldAround: [
       "Edwin’s adult life follows the second wave of the Great Migration’s western arc: not only Texas to California, but onward to Washington State. His timeline lives in the decades when military bases, shipyards, and expanding metro regions pulled families into new geographies while older hometown addresses remained the emotional center of gravity.",
@@ -498,7 +496,7 @@ export const ancestors = [
     ],
     researchNotes: [
       "Because my biological link to the Milburn siblings runs through a working hypothesis about James Clarence Milburn, I’m listing Edwin as a probable uncle pending closer-match confirmation.",
-      "If you want to add an anchoring detail that makes the page feel extra alive, the obituary text (once you pull it in full) is usually where church affiliation, occupation, and ‘known for’ lines live.",
+      "If I want to add an anchoring detail that makes the page feel extra alive, obituary text (once pulled in full) is usually where church affiliation, occupation, and ‘known for’ lines live.",
     ],
     confidenceBadge: {
       text: "Provisional",
@@ -721,7 +719,7 @@ export const ancestors = [
     story: [
       "Eliza Davis lived in the hinge years when freedom had been declared but equality had not been delivered. Her adulthood likely involved constant calculation: how to keep children safe, how to keep food on the table, how to navigate a world that demanded Black women be both invisible and indestructible at the same time.",
       "Her marriage to J.R. Tatum produced children who would later be connected to education and leadership, including Robert. If Robert becomes the polished public-facing part of this branch, Eliza is the root system beneath it: the person who carried the early years, the small decisions, and the daily endurance that made later achievements possible.",
-      "She died in 1914, early enough that her children would have grown into adulthood with her memory as guidance rather than her presence as a safety net. That kind of early loss quietly reshapes families, and you can see echoes of it repeating across generations in different forms.",
+      "She died in 1914, early enough that her children would have grown into adulthood with her memory as guidance rather than her presence as a safety net. That kind of early loss quietly reshapes families, and I can see echoes of it repeating across generations in different forms.",
     ],
     worldAround: [
       "Eliza’s years span the deepening of segregation and the rise of rural Black schooling efforts, often supported by churches and community leaders when the state would not provide.",
