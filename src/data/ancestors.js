@@ -5,6 +5,19 @@ export const ancestors = [
     lifespan: "1944–2003",
     relationship:
       "My biological father (working hypothesis); youngest child of the Hemlock Street household.",
+    relatedIds: [
+      "richard-charles-milburn-sr",
+      "mary-jane-simmons-milburn",
+      "richard-charles-milburn-jr",
+      "henry-burton-milburn",
+      "freddie-coletta-milburn",
+      "frank-john-newton-milburn",
+      "joseph-guy-milburn",
+      "margaret-c-milburn",
+      "edward-lee-milburn",
+      "edwin-lee-milburn",
+      "robert-theophoulus-tatum",
+    ],
     snapshot: [
       "Born: 26 July 1944, Beaumont, Jefferson County, Texas",
       "Died: 26 January 2003, California; interred 6 Feb 2003 at San Joaquin Valley National Cemetery (Santa Nella), Section 2 Site 553",
@@ -74,6 +87,18 @@ export const ancestors = [
     lifespan: "1923–1996",
     relationship:
       "My (likely) paternal uncle; eldest child of the Hemlock Street household.",
+    relatedIds: [
+      "richard-charles-milburn-sr",
+      "mary-jane-simmons-milburn",
+      "james-clarence-milburn",
+      "henry-burton-milburn",
+      "freddie-coletta-milburn",
+      "frank-john-newton-milburn",
+      "joseph-guy-milburn",
+      "margaret-c-milburn",
+      "edward-lee-milburn",
+      "edwin-lee-milburn",
+    ],
     snapshot: [
       "Born: 13 October 1923, Beaumont, Jefferson County, Texas",
       "Died: 1 July 1996, Richmond, Contra Costa County, California",
@@ -128,6 +153,18 @@ export const ancestors = [
     lifespan: "1925–",
     relationship:
       "My (likely) paternal uncle; early bridge figure between Beaumont and San Francisco.",
+    relatedIds: [
+      "richard-charles-milburn-sr",
+      "mary-jane-simmons-milburn",
+      "james-clarence-milburn",
+      "richard-charles-milburn-jr",
+      "freddie-coletta-milburn",
+      "frank-john-newton-milburn",
+      "joseph-guy-milburn",
+      "margaret-c-milburn",
+      "edward-lee-milburn",
+      "edwin-lee-milburn",
+    ],
     snapshot: [
       "Born: 25 December 1925, Beaumont, Jefferson County, Texas",
       "Parents: Richard Charles Milburn Sr & Mary Jane “Jane” (Simmons) Milburn",
@@ -182,6 +219,18 @@ export const ancestors = [
     lifespan: "1928–2005",
     relationship:
       "My (likely) paternal aunt; moved early to San Francisco and later returned to Beaumont.",
+    relatedIds: [
+      "richard-charles-milburn-sr",
+      "mary-jane-simmons-milburn",
+      "james-clarence-milburn",
+      "richard-charles-milburn-jr",
+      "henry-burton-milburn",
+      "frank-john-newton-milburn",
+      "joseph-guy-milburn",
+      "margaret-c-milburn",
+      "edward-lee-milburn",
+      "edwin-lee-milburn",
+    ],
     snapshot: [
       "Born: 4 January 1928, Beaumont, Jefferson County, Texas",
       "Died: 2 February 2005, Beaumont, Jefferson County, Texas",
@@ -237,6 +286,18 @@ export const ancestors = [
     lifespan: "1930–2012",
     relationship:
       "My (likely) paternal uncle; longtime Marina, California branch.",
+    relatedIds: [
+      "richard-charles-milburn-sr",
+      "mary-jane-simmons-milburn",
+      "james-clarence-milburn",
+      "richard-charles-milburn-jr",
+      "henry-burton-milburn",
+      "freddie-coletta-milburn",
+      "joseph-guy-milburn",
+      "margaret-c-milburn",
+      "edward-lee-milburn",
+      "edwin-lee-milburn",
+    ],
     snapshot: [
       "Born: 5 January 1930, Beaumont, Jefferson County, Texas",
       "Died: 11 February 2012, Marina, Monterey County, California",
@@ -292,6 +353,18 @@ export const ancestors = [
     lifespan: "1932–2022",
     relationship:
       "My (likely) paternal uncle; Korea-era veteran with a Bay Area life lived mostly in the background.",
+    relatedIds: [
+      "richard-charles-milburn-sr",
+      "mary-jane-simmons-milburn",
+      "james-clarence-milburn",
+      "richard-charles-milburn-jr",
+      "henry-burton-milburn",
+      "freddie-coletta-milburn",
+      "frank-john-newton-milburn",
+      "margaret-c-milburn",
+      "edward-lee-milburn",
+      "edwin-lee-milburn",
+    ],
     snapshot: [
       "Born: 19 March 1932, Beaumont, Jefferson County, Texas",
       "Died: 6 July 2022, Richmond, Contra Costa County, California",
@@ -345,6 +418,18 @@ export const ancestors = [
     lifespan: "1934–2022",
     relationship:
       "My (likely) paternal aunt; the sister who rooted deeply in San Francisco.",
+    relatedIds: [
+      "richard-charles-milburn-sr",
+      "mary-jane-simmons-milburn",
+      "james-clarence-milburn",
+      "richard-charles-milburn-jr",
+      "henry-burton-milburn",
+      "freddie-coletta-milburn",
+      "frank-john-newton-milburn",
+      "joseph-guy-milburn",
+      "edward-lee-milburn",
+      "edwin-lee-milburn",
+    ],
     snapshot: [
       "Born: November 1934, Beaumont, Jefferson County, Texas",
       "Died: February 2022, San Francisco, California (probable; pending official index record)",
@@ -400,6 +485,18 @@ export const ancestors = [
     lifespan: "1939–",
     relationship:
       "My probable uncle (if James Clarence Milburn is my biological father); twin son of the Hemlock Street household.",
+    relatedIds: [
+      "richard-charles-milburn-sr",
+      "mary-jane-simmons-milburn",
+      "edwin-lee-milburn",
+      "james-clarence-milburn",
+      "richard-charles-milburn-jr",
+      "henry-burton-milburn",
+      "freddie-coletta-milburn",
+      "frank-john-newton-milburn",
+      "joseph-guy-milburn",
+      "margaret-c-milburn",
+    ],
     snapshot: [
       "Born: 15 December 1939, Jefferson County, Texas (twin of Edwin Lee Milburn)",
       "Childhood: 995 Hemlock (1940) and 2175 Hemlock (1950), Beaumont, Texas",
@@ -472,6 +569,18 @@ export const ancestors = [
     lifespan: "1939–2015",
     relationship:
       "My probable uncle (if James Clarence Milburn is my biological father); twin son of the Hemlock Street household.",
+    relatedIds: [
+      "richard-charles-milburn-sr",
+      "mary-jane-simmons-milburn",
+      "edward-lee-milburn",
+      "james-clarence-milburn",
+      "richard-charles-milburn-jr",
+      "henry-burton-milburn",
+      "freddie-coletta-milburn",
+      "frank-john-newton-milburn",
+      "joseph-guy-milburn",
+      "margaret-c-milburn",
+    ],
     snapshot: [
       "Born: 15 December 1939, Jefferson County, Texas (twin of Edward Lee Milburn)",
       "Childhood: 995 Hemlock (1940) and 2175 Hemlock (1950), Beaumont, Texas",
@@ -546,6 +655,20 @@ export const ancestors = [
     name: "Mary Jane “Jane” (Simmons) Milburn",
     lifespan: "1901–1955",
     relationship: "My grandmother; mother of James Clarence Milburn.",
+    relatedIds: [
+      "richard-charles-milburn-sr",
+      "henry-simmons-jr",
+      "amelia-barber-simmons",
+      "richard-charles-milburn-jr",
+      "henry-burton-milburn",
+      "freddie-coletta-milburn",
+      "frank-john-newton-milburn",
+      "joseph-guy-milburn",
+      "margaret-c-milburn",
+      "edward-lee-milburn",
+      "edwin-lee-milburn",
+      "james-clarence-milburn",
+    ],
     snapshot: [
       "Born: 17 November 1901, Opelousas, St. Landry Parish, Louisiana",
       "Died: 30 April 1955, San Francisco, California; buried in Magnolia Cemetery, Beaumont",
@@ -574,6 +697,18 @@ export const ancestors = [
     name: "Richard Charles Milburn Sr",
     lifespan: "1896–1986",
     relationship: "My legal paternal grandfather; husband of Jane Simmons.",
+    relatedIds: [
+      "mary-jane-simmons-milburn",
+      "richard-charles-milburn-jr",
+      "henry-burton-milburn",
+      "freddie-coletta-milburn",
+      "frank-john-newton-milburn",
+      "joseph-guy-milburn",
+      "margaret-c-milburn",
+      "edward-lee-milburn",
+      "edwin-lee-milburn",
+      "james-clarence-milburn",
+    ],
     snapshot: [
       "Born: 9 March 1896, Opelousas, St. Landry Parish, Louisiana",
       "Died: 28 April 1986, Beaumont, Texas",
@@ -603,6 +738,7 @@ export const ancestors = [
     name: "Henry Simmons Jr",
     lifespan: "c. 1882–1932",
     relationship: "My great-grandfather (Jane’s father).",
+    relatedIds: ["amelia-barber-simmons", "mary-jane-simmons-milburn"],
     snapshot: [
       "Born: about 1882, near Opelousas, St. Landry Parish, Louisiana",
       "Died: 1932, Beaumont, Texas",
@@ -630,6 +766,7 @@ export const ancestors = [
     name: "Amelia (Barber) Simmons",
     lifespan: "1881–1928",
     relationship: "My great-grandmother (Jane’s mother).",
+    relatedIds: ["henry-simmons-jr", "mary-jane-simmons-milburn"],
     snapshot: [
       "Born: June 1881, Opelousas, St. Landry Parish, Louisiana",
       "Died: 1928, Beaumont, Texas",
@@ -657,6 +794,7 @@ export const ancestors = [
     lifespan: "1889–1947",
     relationship:
       "Likely my biological grandfather; educator and community leader in Beaumont.",
+    relatedIds: ["jr-tatum", "eliza-davis-tatum", "james-clarence-milburn"],
     snapshot: [
       "Born: late 1880s (Texas)",
       "Died: 1947, Texas",
@@ -685,6 +823,7 @@ export const ancestors = [
     name: "James Rankin (“J.R.”) Tatum",
     lifespan: "c. 1870s–after 1906",
     relationship: "Likely my great-great-grandfather (Robert’s father).",
+    relatedIds: ["eliza-davis-tatum", "robert-theophoulus-tatum"],
     snapshot: [
       "Born: c. 1870s, Texas (Colorado County area)",
       "Marriage: Eliza Davis (1889), later Winnie Roy (1901)",
@@ -711,6 +850,7 @@ export const ancestors = [
     name: "Eliza (Davis) Tatum",
     lifespan: "c. 1874–1914",
     relationship: "Likely my great-great-grandmother (Robert’s mother).",
+    relatedIds: ["jr-tatum", "robert-theophoulus-tatum"],
     snapshot: [
       "Born: c. 1874, Texas (Colorado County area)",
       "Married: J.R. Tatum (1889); later remarried",
